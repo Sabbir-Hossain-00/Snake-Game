@@ -175,7 +175,7 @@ html,body{
 
     #up{
         position: relative;
-        bottom: 80px;
+        bottom: 23vw;
         border-radius: 10px;
         box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
         background-color: dimgray;
@@ -183,8 +183,8 @@ html,body{
     }
     #down{
         position: relative;
-        top: 100px;
-        right: 165px;
+        top: 26vw;
+        right: 44vw;
         box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
         background-color: dimgray;
         color: #fff;
@@ -196,8 +196,8 @@ html,body{
         color: #fff;
         border-radius: 10px;
         position: relative;
-        right: 30px;
-        top: 10px;
+        right: 3vw;
+        top: 2vw;
     }
     #right{
         box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
@@ -205,14 +205,14 @@ html,body{
         color: #fff;
         border-radius: 10px;
         position: relative;
-        top: 10px;
-        left: 40px;
+        top: 2vw;
+        left: 3vw;
     }
     
     #start{
         position: absolute;
-        left: 120px;
-        top:105px ;
+        left: 32vw;
+        top:26vw;
         border-radius: 50%;
         box-shadow: 0 0 10px rgba(44, 44, 44, 0.8);
     }
@@ -238,3 +238,11 @@ html,body{
          
     }
 }
+
+@media (min-width:430px) {
+    #start{
+        left: 25vw;
+       
+    }
+}
+
