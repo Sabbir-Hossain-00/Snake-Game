@@ -72,7 +72,7 @@ for(let i = 1; i<snakeArr.length; i++){
         inputDir = {x:0, y:0}
         
         alert("Game Over. Press Start Button to play again !  ");
-        scoreBox.innerHTML = "Score: 0"
+        score = 0;
         snakeArr = [{ x:10 , y:20 }]
         bgSound.play();
         
