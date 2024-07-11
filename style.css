@@ -15,15 +15,17 @@ html,body{
 
 .main{
     width: 100%;
-    min-height: 100vh;
+    height: 100vh;
     background-image: url(bg.jpg);
     background-size: 100vw 100vh;
     display: flex;
     justify-content: center;
     align-items: flex-start;
     padding-top: 2vw;
+    padding-bottom: 3vw;
     gap: 0vw;
     overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 .board{
@@ -162,8 +164,8 @@ html,body{
     }
 
     .buttons button{
-        width: 25vw;
-        height: 22vw;
+        width: 20vw;
+        height: 20vw;
         font-size: 4vw;
         font-weight: 700;
         border: none;
@@ -173,7 +175,7 @@ html,body{
 
     #up{
         position: relative;
-        bottom: 70px;
+        bottom: 80px;
         border-radius: 10px;
         box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
         background-color: dimgray;
@@ -181,8 +183,8 @@ html,body{
     }
     #down{
         position: relative;
-        top: 150px;
-        right: 200px;
+        top: 100px;
+        right: 165px;
         box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
         background-color: dimgray;
         color: #fff;
@@ -195,7 +197,7 @@ html,body{
         border-radius: 10px;
         position: relative;
         right: 30px;
-        top: 50px;
+        top: 10px;
     }
     #right{
         box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
@@ -203,14 +205,14 @@ html,body{
         color: #fff;
         border-radius: 10px;
         position: relative;
-        top: 50px;
+        top: 10px;
         left: 40px;
     }
     
     #start{
         position: absolute;
-        left: 100px;
-        top:140px ;
+        left: 120px;
+        top:105px ;
         border-radius: 50%;
         box-shadow: 0 0 10px rgba(44, 44, 44, 0.8);
     }
